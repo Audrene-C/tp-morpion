@@ -1,0 +1,41 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.box {
+    background: rgb(182, 215, 235);
+    border: black 1px solid;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 0;
+    cursor: pointer;
+    float: left;    
+}
+
+.row {
+    display: block;
+    float:left;
+    width:100%;
+}
+
+.fas {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#message {
+    margin: 30px;
+    text-align: center;
+}

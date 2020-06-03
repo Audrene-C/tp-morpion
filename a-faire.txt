@@ -1,0 +1,4 @@
+empêcher d'écrire plusieurs fois dans la même case
+terminer la partie si gagnant ou si toutes les cases sont remplies
+créer un timer 
+relancer une partie
