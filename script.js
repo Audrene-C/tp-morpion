@@ -96,6 +96,8 @@ class Player {
             row.className = "row";
             for (let j = 0; j < 3; j++) {
                 let box = document.createElement('div');
+                //correction : data-attributes are WAY better
+                //box.dataset.number = i+j;
                 box.id = "box"+i+j;
                 box.classList.add("comics");
                 row.appendChild(box);
@@ -106,6 +108,7 @@ class Player {
 
     addListener() {
         let boxes = document.querySelectorAll('.row>div');
+        //fonction fléchée permet de récupérer le this
         boxes.forEach(box => {
             box.addEventListener('click', function play(event) {
                 if(box.classList.contains('boxfull')) {
